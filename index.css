@@ -1,0 +1,58 @@
+/*index.css*/
+*{
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+::selection {
+    color: rgb(0, 225, 255);
+    background: rgb(132, 163, 255);
+  }
+body{
+    background-color:rgb(20, 24, 69);
+     height: 96vh;
+    position: relative;
+    background-position: center;
+}
+.para{
+    text-align: center;
+    padding: 50px;
+    font-size: 10px;
+    font-size: 20px;
+}
+ul>li{
+    float:left;
+    margin-right:30px;
+}
+li{
+    width: 15%;
+    text-align: center;  
+} 
+ li a {
+    display: block;
+    height: 35px;
+   padding-top: 10px;
+}
+a:link{
+    text-decoration: none;
+    color: rgb(250, 255, 254); 
+    font-size: larger;  
+}
+a:hover{
+   
+    border:2px solid     rgb(74, 84, 190);
+    border-radius: 10px;
+}
+a:visited{
+    color:red;
+}
+h1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+h4{
+    font-size: 17px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 4px #f1d1d1;
+}
